@@ -2,7 +2,8 @@
 
 *{
     margin: auto;
-    text-align: center;
+    overflow: hidden;
+ 
 }
 
 iframe{
@@ -45,12 +46,15 @@ section#tabela{
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 30px;
+    margin: auto;
 }
 
 section#h1fixo{
     background-color: black;
     color: white;
     position: relative;
+    width: 100vh;
+    margin: auto;
 }
 
 section#h1fixo > h1{
@@ -60,6 +64,7 @@ section#h1fixo > h1{
     position: sticky;
     top: 0px;
     font-variant: small-caps;
+    margin: auto;
 }
 
 h1{
@@ -132,9 +137,8 @@ td{
 
 p{
     font-size: 20px;
-    width: 900px;
     line-height: 1.5em;
-    padding: 30px 0;
+    margin: 25px;
     text-align: justify;
     text-indent: 20px;
 }
