@@ -2,14 +2,22 @@
 
 *{
     margin: auto;
+    text-align: center;
+}
+
+iframe{
+    width:70vh;
+    margin: auto;
+    text-align: center;
+    height: 650px;
 }
 
 table{
-    width: 800px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     border-collapse: collapse;
-    margin: 80px auto;
+    
     }
 
 td{
@@ -26,4 +34,107 @@ th{
 
 col.cgrupo{
     background-color: rgb(212, 212, 212);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+section#tabela{
+    background-image: url(https://s2.glbimg.com/WSPZY3XuAwvqcjfoocb9rmA-zh0=/620x300/e.glbimg.com/og/ed/f/original/2019/06/26/populalcao.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+
+section#h1fixo{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+section#h1fixo > h1{
+    background-color: yellow;
+    color: black;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+    font-variant: small-caps;
+}
+
+h1{
+    text-align:center;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+
+}
+
+caption{
+    background-color: yellow;
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+thead > tr >th{
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+
+th, tfoot{
+    width: 600px;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding: 15px;
+}
+
+/* tbody > tr:nth-child(odd) Impar
+                       (even) Par
+   tbody > tr:nth-child(2n) de 2 em 2
+                       (3n) de 3 em 3 ...etc
+*/
+
+/* COMENTÁRIO EM CSS */
+
+tbody > tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 0.958);
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.949);
+}
+
+td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.number{
+    text-align: right;
+    width: 10%;
+}
+
+p{
+    font-size: 20px;
+    width: 900px;
+    line-height: 1.5em;
+    padding: 30px 0;
+    text-align: justify;
+    text-indent: 20px;
 }
